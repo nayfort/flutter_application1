@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/flutter_app.dart';
+import 'package:flutter/cupertino.dart';
 
-void main() {
-  runApp(MaterialApp(home: Text('Hello world!', textDirection: TextDirection.ltr,),),);
-}
+void main() => runApp(FlutterTutorialApp());
